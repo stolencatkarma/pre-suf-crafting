@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Build Paper Plugin (Gradle)",
+			"command": "gradlew.bat build; Copy-Item -Path build\\libs\\*.jar -Destination D:\\paper-1.21.7\\plugins\\ -Force",
+			"group": "build",
+			"problemMatcher": [
+				"$javac"
+			]
+		}
+	]
+}

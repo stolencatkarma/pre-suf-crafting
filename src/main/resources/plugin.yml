@@ -1,0 +1,4 @@
+name: PreSufCrafting
+main: com.example.presufcrafting.PreSufCraftingPlugin
+version: 1.0
+api-version: 1.20
